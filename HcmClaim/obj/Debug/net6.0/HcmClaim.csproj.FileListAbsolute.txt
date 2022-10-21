@@ -66,3 +66,13 @@ C:\HCM\HcmClaim\HcmClaim\obj\Debug\net6.0\HcmClaim.genruntimeconfig.cache
 C:\HCM\HcmClaim\HcmClaim\obj\Debug\net6.0\ref\HcmClaim.dll
 C:\HCM\HcmClaim\HcmClaim\bin\Debug\net6.0\AutoMapper.dll
 C:\HCM\HcmClaim\HcmClaim\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\HCM\HcmClaim\HcmClaim\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\HCM\HcmClaim\HcmClaim\bin\Debug\net6.0\Serilog.dll
+C:\HCM\HcmClaim\HcmClaim\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\HCM\HcmClaim\HcmClaim\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\HCM\HcmClaim\HcmClaim\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\HCM\HcmClaim\HcmClaim\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\HCM\HcmClaim\HcmClaim\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\HCM\HcmClaim\HcmClaim\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\HCM\HcmClaim\HcmClaim\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\HCM\HcmClaim\HcmClaim\bin\Debug\net6.0\Serilog.Sinks.File.dll
