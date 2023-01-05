@@ -20,6 +20,13 @@ builder.Services.AddDbContext<ToDoContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultDatabase")));
 builder.Services.AddAutoMapper(typeof(MappingConfig));
 builder.Services.AddScoped<IClaimRepo, ClaimRepo>();
+builder.Services.AddCors((setup) =>
+{
+    setup.AddPolicy("default", (options) =>
+    {
+        options.AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin();
+    });
+});
 
 var app = builder.Build();
 
@@ -29,6 +36,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseCors("default");
 
 app.UseHttpsRedirection();
 
